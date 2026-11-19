@@ -21,7 +21,6 @@ namespace Part1_ProceduralToOOP
                     break;
                 }
 
-                // Centralized exception boundary: catches domain rule violations without crashing the app
                 try
                 {
                     HandleMenuChoice(choice, store);
@@ -141,7 +140,6 @@ namespace Part1_ProceduralToOOP
             }
         }
 
-        // Input parsing helpers so invalid console text throws a clean FormatException caught by Main
         private static int ReadInt(string prompt)
         {
             Console.Write(prompt);

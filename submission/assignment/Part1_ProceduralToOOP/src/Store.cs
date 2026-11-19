@@ -1,6 +1,5 @@
 ﻿internal sealed class Store
 {
-    // Private backing collections: state is owned by the Store instance (no static globals)
     private readonly List<Customer> _customers = new();
 
     private readonly List<Product> _products = new();
