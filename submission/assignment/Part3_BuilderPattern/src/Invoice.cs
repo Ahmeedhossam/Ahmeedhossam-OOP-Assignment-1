@@ -27,7 +27,7 @@
         public decimal TaxAmount { get; }
         public decimal TotalAmount { get; }
 
-        public Invoice(
+        internal Invoice(
             string invoiceId,
             string customerName,
             string customerEmail,
